@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezado</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 160px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(
+                100deg,
+                #d40000,
+                #111111,
+                #a00000
+            );
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            overflow: hidden;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            background: white;
+            border-radius: 50%;
+            border: 3px solid #e50914;
+        }
+
+        .titulo {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        @media (max-width: 600px) {
+            img {
+                width: 70px;
+                height: 70px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5rcUKG3xReft5w2NzftQb6uZryL4YWSftQZy8JM5hkFWSQrrco9Prk8Mb&s=10" alt="Logo del colegio">
+
+    <div class="titulo">
+        <h1>QUÍMICOS BOLÍVAR</h1>
+        <p>Calidad, limpieza y cuidado para todos</p>
+    </div>
+
+</body>
+</html>
+```
